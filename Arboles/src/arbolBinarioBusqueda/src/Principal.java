@@ -1,6 +1,4 @@
-package arbolBinario;
-
-public class ElMain {
+public class Principal {
     public static void main(String[] args) {
         try {
             ArbolBinario arbol;
@@ -19,16 +17,12 @@ public class ElMain {
             a = ArbolBinario.nuevoArbol(a, "Esperanza1", b);
             arbol = new ArbolBinario(a);
             ArbolBinario.dibujar("",false, arbol.raiz);
-            System.out.println();
             System.out.println("Recorrido PreOrden: ");
             ArbolBinario.preorden(arbol.raiz);
-            System.out.println();
             System.out.println("\nRecorrido EnOrden: ");
             ArbolBinario.inorden(arbol.raiz);
-            System.out.println();
             System.out.println("\nRecorrido PostOrden: ");
             ArbolBinario.postorden(arbol.raiz);
-            System.out.println();
             System.out.println("\nNúmero de nodos: "+ ArbolBinario.numNodos(arbol.raiz));
         } catch (Exception t) {
             System.out.println("Ha ocurrido la excepción: " + t);

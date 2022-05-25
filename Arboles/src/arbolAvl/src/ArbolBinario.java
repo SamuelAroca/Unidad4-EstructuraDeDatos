@@ -1,5 +1,3 @@
-package arbolBinario;
-
 public class ArbolBinario {
     protected Nodo raiz;
 
@@ -65,5 +63,18 @@ public class ArbolBinario {
             return 0;
         else
             return 1 + numNodos(raiz.subarbolIzdo()) + numNodos(raiz.subarbolDcho());
+    }
+
+    public static int altura(Nodo raiz) {
+        if (raiz == null)
+            return 0;
+        else {
+            int alturaIz = altura(raiz.subarbolIzdo());
+            int alturaDr = altura(raiz.subarbolDcho());
+            if (alturaIz > alturaDr)
+                return alturaIz + 1;
+            else
+                return alturaDr + 1;
+        }
     }
 }
