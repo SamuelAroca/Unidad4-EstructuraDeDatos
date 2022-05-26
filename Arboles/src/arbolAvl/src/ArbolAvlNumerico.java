@@ -22,14 +22,19 @@ public class ArbolAvlNumerico {
 			elemento = new Numero(3);*/
             avl.insertar(elemento);
         }
-		/*System.out.print("\n Inorden:  ");
-		ArbolBinario.inorden(avl.raizArbol());
-		System.out.print("\n Preorden: ");
-		ArbolBinario.preorden(avl.raizArbol());
-		System.out.print("\n Anchura:  ");
-		ArbolBinario.anchura(avl.raizArbol());
-		System.out.println("\n Altura: " + altura(avl.raizArbol()));*/
+        System.out.print("\n Preorden: ");
+        ArbolBinario.preorden(avl.raizArbol());
+        System.out.print("\n Inorden:  ");
+        ArbolBinario.inorden(avl.raizArbol());
+        System.out.print("\n Postorden: ");
+        ArbolBinario.postorden(avl.raizArbol());
+        //System.out.print("\n Anchura:  ");
+        //ArbolBinario.anchura(avl.raizArbol());
+        System.out.println("\n Altura: " + altura(avl.raizArbol()));
+        System.out.println("\n Nodos: " + ArbolBinario.numNodos(avl.raizArbol()));
         System.out.println("\n");
+
+        avl.eliminar(new Numero((int)945));
         ArbolBinario.dibujar("", true, avl.raizArbol());
     }
 

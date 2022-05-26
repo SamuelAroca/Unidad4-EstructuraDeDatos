@@ -97,19 +97,20 @@ public class ArbolAvl {
             if (h.booleanValue()) {
                 // decrementa el fe por aumentar la altura de rama izquierda
                 switch (raiz.fe) {
-                    case 1 -> {
+                    case 1:
                         raiz.fe = 0;
                         h.setLogical(false);
-                    }
-                    case 0 -> raiz.fe = -1;
-                    case -1 -> { // aplicar rotación a la izquierda
+                        break;
+                    case 0:
+                        raiz.fe = -1;
+                        break;
+                    case -1: // aplicar rotación a la izquierda
                         n1 = (NodoAvl) raiz.subarbolIzdo();
                         if (n1.fe == -1)
                             raiz = rotacionII(raiz, n1);
                         else
                             raiz = rotacionID(raiz, n1);
                         h.setLogical(false);
-                    }
                 }
             }
         } else if (dt.mayorQue(raiz.valorNodo())) {
@@ -142,7 +143,7 @@ public class ArbolAvl {
     }
 
     public void eliminar(Object valor) throws Exception {
-        Comparador dato = (Comparador) valor;
+        Comparador dato = (Comparador)valor ;
         Logical flag = new Logical(false);
         raiz = borrarAvl(raiz, dato, flag);
     }
