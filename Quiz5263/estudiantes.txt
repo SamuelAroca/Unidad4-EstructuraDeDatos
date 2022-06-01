@@ -1,0 +1,15 @@
+Carné       Nombre                                   Email
+20211002590 AROCA SAMUEL samuel.arocad@unac.edu.co
+20211033990 BLANCO JEAN jeanc.blancor@unac.edu.co
+20211015590 CABRERA GIANCARLO giancarlo.cabrera@unac.edu.co
+20211034190 DIAZDELCASTILLO JIM jims.diazc@unac.edu.co
+20211010090 GARCÉS KENNY kenny.garces@unac.edu.co
+20201031190 GRACIANO KEVIN kevinf.gracianol@unac.edu.co
+20221013190 MESA YESICA yesicay.mesai@unac.edu.co
+20221030790 PATIÑO JAMIR jamir.patinoc@unac.edu.co
+20211003190 PINEDA KAMILA kamila.pinedap@unac.edu.co
+20211004790 PIRAZAN HAMLET hamletj.pirazanp@unac.edu.co
+20221017790 PULGARIN JUAN juanp.pulgarinv@unac.edu.co
+20211035990 RAMOS ANGEL angelf.ramosc@unac.edu.co
+20171045990 RUBIANO FERNEY fsrubianor@unac.edu.co
+20211022390 SALGADO YUNEIDY yuneidy.salgados@unac.edu.co
